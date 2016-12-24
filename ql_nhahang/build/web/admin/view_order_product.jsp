@@ -37,7 +37,7 @@
         <title>thanh hoa restaurant</title>         
     </head>
     <body >                  
-        
+        <%-- cái lều gì thế --%>
         <% Order ord = new Order(); 
         Date today=new Date(System.currentTimeMillis());
         SimpleDateFormat timeFormat= new SimpleDateFormat("dd/MM/yyyy");
